@@ -1,9 +1,9 @@
 import time
-from code1 import *
+from load_crawled_data import *
 import pickle
 import math
 import random
-from code import *
+from load_CK_dataset import *
 import matplotlib
 #matplotlib.use('agg',warn=False, force=True)
 from PIL import Image
@@ -13,7 +13,7 @@ import matplotlib.pyplot as plt
 import scipy
 from PIL import Image
 from scipy import ndimage
-from deep_neural_nets_utilities import *
+from deep_neural_nets_utils import *
 
 plt.rcParams['figure.figsize'] = (5.0, 4.0) # set default size of plots
 plt.rcParams['image.interpolation'] = 'nearest'
