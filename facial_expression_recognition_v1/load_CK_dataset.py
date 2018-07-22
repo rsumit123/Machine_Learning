@@ -5,8 +5,6 @@ import numpy as np
 
 
 
-
-
 def create_database(files_dir):
    labels=[]
    images=[]
